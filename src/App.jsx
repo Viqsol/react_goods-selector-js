@@ -23,7 +23,6 @@ export const App = () => {
       {!selectedGood ? (
         <h1 className="title is-flex is-align-items-center">
           No goods selected
-          <button data-cy="ClearButton" type="button" className="delete ml-3" />
         </h1>
       ) : (
         <h1 className="title is-flex is-align-items-center">
